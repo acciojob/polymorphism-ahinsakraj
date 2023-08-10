@@ -20,12 +20,16 @@ public class Main {
     public static void main(String[] args) {
         Product p = new Product();
 
-        int f1 = p.product(3, 5);
-        int f2 = p.product(3, 5, 4);
-        double f3 = p.product(4.5 , 5.5);
-        System.out.println(f1);
-        System.out.println(f2);
-        System.out.println(f3);
+        p.product(3, 5);
+        p.product(3, 5, 4);
+        p.product(4.5 , 5.5);
+
+//        int f1 = p.product(3, 5);
+//        int f2 = p.product(3, 5, 4);
+//        double f3 = p.product(4.5 , 5.5);
+//        System.out.println(f1);
+//        System.out.println(f2);
+//        System.out.println(f3);
     }
 
 }
